@@ -10,7 +10,7 @@ public class Laptop {
     protected int donGia;
     CPU cpu = new CPU();
     RAM ram = new RAM();
-    ManHinh man = new ManHinh();
+    ManHinh man = new ManHinh();//dev ngu
     OCung oc = new OCung();
 
     public Laptop(String tenLap, String maLap, String loaiLap, int donGia, CPU cpu, RAM ram, ManHinh man, OCung oc) {
